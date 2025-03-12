@@ -1,14 +1,14 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This is the project for Sprint 7 of TripleTen's online coding bootcamp. It is an app that acts as an adjustable todo list
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+You can track the things you need to do.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+This project utilizes CSS, JavaScript, and HTML. This project was made with VSCode
 
 ## Deployment
 
