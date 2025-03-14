@@ -14,4 +14,4 @@ This project utilizes CSS, JavaScript, and HTML. This project was made with VSCo
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+[Click to get started!](http://mycustomtodoapp.com/)
