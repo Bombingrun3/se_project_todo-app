@@ -20,7 +20,6 @@ const closeModal = (modal) => {
 const generateTodo = (data) => {
   const todo = new Todo(data, "#todo-template");
   const todoElement = todo.getView();
-  uuidv4();
   return todoElement;
 };
 
@@ -40,6 +39,7 @@ addTodoForm.addEventListener("submit", (evt) => {
   // Create a date object and adjust for timezone
   const date = new Date(dateInput);
   date.setMinutes(date.getMinutes() + date.getTimezoneOffset());
+  newTodoValidator.resetValidation();
 
   const id = uuidv4();
   const values = { name, date, id };
