@@ -18,8 +18,7 @@ class Popup {
     closeButton.addEventListener("click", () => {
       this.close();
     });
-    const popup = this._popupElement;
-    popup.addEventListener("click", (evt) => {
+    this._popupElement.addEventListener("click", (evt) => {
       this._handleOverlayClick(evt);
     });
   }
