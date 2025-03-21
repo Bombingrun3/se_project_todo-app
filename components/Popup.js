@@ -14,13 +14,11 @@ class Popup {
   }
 
   setEventListeners() {
-    const closeButton = this._popupElement.querySelector(
-      ".popup__close-button"
-    );
-    const popup = this._popupElement;
+    const closeButton = this._popupElement.querySelector(".popup__close");
     closeButton.addEventListener("click", () => {
       this.close();
     });
+    const popup = this._popupElement;
     popup.addEventListener("click", (evt) => {
       this._handleOverlayClick(evt);
     });
